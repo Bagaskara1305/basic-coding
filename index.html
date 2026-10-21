@@ -81,8 +81,139 @@
   <li><a href="https://Pixabay.com/" target="_blank"> Pixabay </a></li>
 </ol>
 
-
 </p>
- 
-</body>
-</html>
+
+<h1>Animal Facts</h1>
+<table style="width:50%" border="1" cellspacing="0"
+  <tr>
+    <th rowspan="2" width="50">Family</th>
+    <th rowspan="2" width="120">Animal</th>
+    <th colspan="3">Lifestyle</th>
+  </tr>
+  <th style="text-align: left;" width="150">Diet</th>
+  <th style="text-align: left;" width="150">Habitat</th>
+  <th style="text-align: left;" width="150">Most active</th>
+</tr>
+<tr>
+  <td rowspan="2" style="text-align: center;">Feline</td>
+  <td style="text-align: center;">Lynx</td>
+  <td>Carnivore</td>
+  <td>Forest</td>
+  <td>Dawn and Dusk</td>
+</tr>
+<tr>
+  <td style="text-align: center;">Lion</td>
+  <td>Carnivore</td>
+  <td>Savanna</td>
+  <td>Night</td>
+</tr>
+<tr>
+  <td rowspan="2" style="text-align: center;">Canine</td>
+  <td style="text-align: center;">Wolf</td>
+  <td>Carnivore</td>
+  <td>Forest, Tundra</td>
+  <td>Dawn and Dusk</td>
+</tr>
+<tr>
+  <td style="text-align: center;">Coyote</td>
+  <td>Omnivore</td>
+  <td>Grassland, Deserts</td>
+  <td>Night</td>
+</tr>
+<tr>
+  <td rowspan="2" style="text-align: center;">Bird</td>
+  <td style="text-align: center;">Parrot</td>
+  <td>Seeds, nuts, fruits</td>
+  <td>Forest, Tundra</td>
+  <td>Day</td>
+</tr>
+<tr>
+  <td style="text-align: center;">Owl</td>
+  <td>Carnivore</td>
+  <td>Forest</td>
+  <td>Night</td>
+</tr>
+<tr>
+  <td colspan="6" style="text-align: center; color: #545454; font-style: italic">All animals can be visited every day, 09:00 to 17:00</td>
+</table>
+
+<h1>Plan Your Visit</h1>
+<form action="" method="post">
+  <table>  
+    <tr>
+    <td><label for="fname">Full name:</label></td>
+    <td><input type="text" id="fname" name="fname" placeholder="e.g. Budi Santoso"
+           required>
+    </td>
+    </tr>
+
+    <tr>
+    <td><label for="lname">Email:</label></td>
+    <td><input type="text" id="lname" name="lname" placeholder="e.g. budi.santoso@example.com"
+           required>
+    </td>
+    </tr>
+
+    <tr>
+    <td><label for="lname">Visit date</label></td>
+    <td><input type="date" id="lname" name="lname"></td>
+    </tr>
+
+    <tr>
+    <td><label for="lname">Tickets</label></td>
+    <td><input type="number" id="lname" name="lname" min="1" max="10"></td>
+    </tr>
+
+     <tr>
+    <td><label for="lname">Ticket type</label></td>
+    <td><select id="lname" name="lname">
+      <option value="Adult">Adult</option>
+      <option value="Student">Student</option>
+      <option value="Child">Child</option>
+    </select></td>
+    </tr>
+
+    <tr>
+      <td>
+       <fieldset style="width: 250px">
+        <legend>
+            Which area do you want to see first?
+        </legend>
+
+        <input type="radio" id="feline"
+               name="area" value="feline">
+        <label for="feline">Feline</label>
+
+        <input type="radio" id="canine"
+               name="area" value="canine">
+        <label for="canine">Canine</label>
+
+        <input type="radio" id="bird"
+               name="area" value="bird">
+        <label for="bird">Bird</label>
+    </fieldset>
+    </td>
+
+    <tr>
+      <td> 
+        <input type="checkbox" id="news"
+           name="news">
+    <label for="news">
+        Send me news about the zoo </label>
+    <br>
+    <br>
+      </td>
+    </tr>
+    
+    <tr>
+      <td><label for="lname">Questions or requests</label> </td>
+      <td><textarea></textarea></td>
+    </tr>
+  
+    <tr>
+      <td><input type="submit" value="Book Tickets"></td>
+    </tr>
+    
+  </table>
+
+
